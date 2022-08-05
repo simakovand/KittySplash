@@ -142,7 +142,7 @@ io.on('connection', (socket) => {
     socket.emit('playerId', socket.number);
 
     // sending lobby users
-    if (globalGameState[roomId].intervalCounter >= 3) { // 4players
+    if (globalGameState[roomId].intervalCounter >= 1) { // 4players
       let roomUsersNicknames = socketRooms.map((el) => {
         if (el.room === roomId) {
           const userInfo = { nickname: el.name, playerId: el.playerId, skin: el.skin };
@@ -263,7 +263,7 @@ io.on('connection', (socket) => {
 
     let interval;
 
-    if (globalGameState[roomId]?.intervalCounter === 3) { // 4players
+    if (globalGameState[roomId]?.intervalCounter === 1) { // 4players
       // if (socketsNumber === 1) {
       //   gameStarted = true;
       // }
