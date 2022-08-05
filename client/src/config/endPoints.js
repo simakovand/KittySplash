@@ -1,5 +1,5 @@
-export const host = () => 'https://kittysplashelb.herokuapp.com';
-export const hostFrontSkin = () => 'https://kittysplashelb.herokuapp.com/shop-cards/';
+export const host = () => 'http://localhost:3030';
+export const hostFrontSkin = () => 'http://localhost:3000/shop-cards/';
 export const getStats = (id) => `${host()}/statistics/${id}`;
 export const sendStats = () => `${host()}/statistics/new`;
 

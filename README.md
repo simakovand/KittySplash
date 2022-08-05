@@ -1,2 +1,2 @@
-# KittySplash
+# Splash
 socket.io game
