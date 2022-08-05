@@ -5,6 +5,7 @@ const express = require('express');
 const session = require('express-session');
 const cors = require('cors');
 const socketIo = require('socket.io');
+const path = require('path');
 const FileStore = require('session-file-store')(session);
 const http = require('http');
 const { Module } = require('module');
