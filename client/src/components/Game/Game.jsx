@@ -16,37 +16,37 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import { useNavigate } from 'react-router';
 
-import characterSkin1 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin001.png';
-import characterSkin2 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin002.png';
-import characterSkin3 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin003.png';
-import characterSkin4 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin004.png';
-import characterSkin5 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin005.png';
-import characterSkin6 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin006.png';
-import characterSkin7 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin007.png';
-import characterSkin8 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin008.png';
-import characterSkin9 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin009.png';
-import characterSkin10 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin010.png';
-import characterSkin11 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin011.png';
-import characterSkin12 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin012.png';
-import characterSkin13 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin013.png';
-import characterSkin14 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin014.png';
-import characterSkin15 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin015.png';
-import characterSkin16 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin016.png';
-import characterSkin17 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin017.png';
-import characterSkin18 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin018.png';
-import characterSkin19 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin019.png';
-import characterSkin20 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin020.png';
-import characterSkin21 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin021.png';
-import characterSkin22 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin022.png';
-import characterSkin23 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin023.png';
-import characterSkin24 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin024.png';
-import characterSkin25 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin025.png';
-import characterSkin26 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin026.png';
-import characterSkin27 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin027.png';
-import characterSkin28 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin028.png';
-import characterSkin29 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin029.png';
-import characterSkin30 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin030.png';
-import characterSkin31 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin031.png';
+// import characterSkin1 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin001.png';
+// import characterSkin2 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin002.png';
+// import characterSkin3 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin003.png';
+// import characterSkin4 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin004.png';
+// import characterSkin5 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin005.png';
+// import characterSkin6 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin006.png';
+// import characterSkin7 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin007.png';
+// import characterSkin8 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin008.png';
+// import characterSkin9 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin009.png';
+// import characterSkin10 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin010.png';
+// import characterSkin11 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin011.png';
+// import characterSkin12 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin012.png';
+// import characterSkin13 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin013.png';
+// import characterSkin14 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin014.png';
+// import characterSkin15 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin015.png';
+// import characterSkin16 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin016.png';
+// import characterSkin17 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin017.png';
+// import characterSkin18 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin018.png';
+// import characterSkin19 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin019.png';
+// import characterSkin20 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin020.png';
+// import characterSkin21 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin021.png';
+// import characterSkin22 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin022.png';
+// import characterSkin23 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin023.png';
+// import characterSkin24 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin024.png';
+// import characterSkin25 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin025.png';
+// import characterSkin26 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin026.png';
+// import characterSkin27 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin027.png';
+// import characterSkin28 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin028.png';
+// import characterSkin29 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin029.png';
+// import characterSkin30 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin030.png';
+// import characterSkin31 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin031.png';
 
 import bomb1 from '../../assets/images/bomb/bomb1.png';
 import bomb2 from '../../assets/images/bomb/bomb2.png';
@@ -138,38 +138,38 @@ function Game({
   const tileAmount = 13;
 
   const skins = {
-    '/pipo-nekonin001.png': characterSkin1,
-    'pipo-nekonin001.png': characterSkin1,
-    'pipo-nekonin002.png': characterSkin2,
-    'pipo-nekonin003.png': characterSkin3,
-    'pipo-nekonin004.png': characterSkin4,
-    'pipo-nekonin005.png': characterSkin5,
-    'pipo-nekonin006.png': characterSkin6,
-    'pipo-nekonin007.png': characterSkin7,
-    'pipo-nekonin008.png': characterSkin8,
-    'pipo-nekonin009.png': characterSkin9,
-    'pipo-nekonin010.png': characterSkin10,
-    'pipo-nekonin011.png': characterSkin11,
-    'pipo-nekonin012.png': characterSkin12,
-    'pipo-nekonin013.png': characterSkin13,
-    'pipo-nekonin014.png': characterSkin14,
-    'pipo-nekonin015.png': characterSkin15,
-    'pipo-nekonin016.png': characterSkin16,
-    'pipo-nekonin017.png': characterSkin17,
-    'pipo-nekonin018.png': characterSkin18,
-    'pipo-nekonin019.png': characterSkin19,
-    'pipo-nekonin020.png': characterSkin20,
-    'pipo-nekonin021.png': characterSkin21,
-    'pipo-nekonin022.png': characterSkin22,
-    'pipo-nekonin023.png': characterSkin23,
-    'pipo-nekonin024.png': characterSkin24,
-    'pipo-nekonin025.png': characterSkin25,
-    'pipo-nekonin026.png': characterSkin26,
-    'pipo-nekonin027.png': characterSkin27,
-    'pipo-nekonin028.png': characterSkin28,
-    'pipo-nekonin029.png': characterSkin29,
-    'pipo-nekonin030.png': characterSkin30,
-    'pipo-nekonin031.png': characterSkin31,
+    '/pipo-nekonin001.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin001.png',
+    'pipo-nekonin001.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin001.png',
+    'pipo-nekonin002.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin002.png',
+    'pipo-nekonin003.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin003.png',
+    'pipo-nekonin004.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin004.png',
+    'pipo-nekonin005.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin005.png',
+    'pipo-nekonin006.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin006.png',
+    'pipo-nekonin007.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin007.png',
+    'pipo-nekonin008.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin008.png',
+    'pipo-nekonin009.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin009.png',
+    'pipo-nekonin010.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin010.png',
+    'pipo-nekonin011.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin011.png',
+    'pipo-nekonin012.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin012.png',
+    'pipo-nekonin013.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin013.png',
+    'pipo-nekonin014.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin014.png',
+    'pipo-nekonin015.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin015.png',
+    'pipo-nekonin016.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin016.png',
+    'pipo-nekonin017.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin017.png',
+    'pipo-nekonin018.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin018.png',
+    'pipo-nekonin019.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin019.png',
+    'pipo-nekonin020.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin020.png',
+    'pipo-nekonin021.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin021.png',
+    'pipo-nekonin022.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin022.png',
+    'pipo-nekonin023.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin023.png',
+    'pipo-nekonin024.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin024.png',
+    'pipo-nekonin025.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin025.png',
+    'pipo-nekonin026.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin026.png',
+    'pipo-nekonin027.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin027.png',
+    'pipo-nekonin028.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin028.png',
+    'pipo-nekonin029.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin029.png',
+    'pipo-nekonin030.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin030.png',
+    'pipo-nekonin031.png': 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin031.png',
   };
 
   function exitHandle() {
