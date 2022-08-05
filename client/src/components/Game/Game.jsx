@@ -1,6 +1,7 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable consistent-return */
 /* eslint-disable array-callback-return */
+import * as endPoints from '../../config/endPoints';
 import '../../index.css';
 import React, {
   useRef, useEffect, memo, useState, useLayoutEffect, useMemo,
@@ -16,37 +17,37 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import { useNavigate } from 'react-router';
 
-import characterSkin1 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin001.png';
-import characterSkin2 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin002.png';
-import characterSkin3 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin003.png';
-import characterSkin4 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin004.png';
-import characterSkin5 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin005.png';
-import characterSkin6 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin006.png';
-import characterSkin7 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin007.png';
-import characterSkin8 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin008.png';
-import characterSkin9 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin009.png';
-import characterSkin10 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin010.png';
-import characterSkin11 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin011.png';
-import characterSkin12 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin012.png';
-import characterSkin13 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin013.png';
-import characterSkin14 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin014.png';
-import characterSkin15 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin015.png';
-import characterSkin16 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin016.png';
-import characterSkin17 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin017.png';
-import characterSkin18 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin018.png';
-import characterSkin19 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin019.png';
-import characterSkin20 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin020.png';
-import characterSkin21 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin021.png';
-import characterSkin22 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin022.png';
-import characterSkin23 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin023.png';
-import characterSkin24 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin024.png';
-import characterSkin25 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin025.png';
-import characterSkin26 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin026.png';
-import characterSkin27 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin027.png';
-import characterSkin28 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin028.png';
-import characterSkin29 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin029.png';
-import characterSkin30 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin030.png';
-import characterSkin31 from 'https://kittysplash.herokuapp.com/shop-cards/pipo-nekonin031.png';
+import characterSkin1 from `${endPoints.hostFrontSkin()}/pipo-nekonin001.png`;
+import characterSkin2 from `${endPoints.hostFrontSkin()}/pipo-nekonin002.png`;
+import characterSkin3 from `${endPoints.hostFrontSkin()}/pipo-nekonin003.png`;
+import characterSkin4 from `${endPoints.hostFrontSkin()}/pipo-nekonin004.png`;
+import characterSkin5 from `${endPoints.hostFrontSkin()}/pipo-nekonin005.png`;
+import characterSkin6 from `${endPoints.hostFrontSkin()}/pipo-nekonin006.png`;
+import characterSkin7 from `${endPoints.hostFrontSkin()}/pipo-nekonin007.png`;
+import characterSkin8 from `${endPoints.hostFrontSkin()}/pipo-nekonin008.png`;
+import characterSkin9 from `${endPoints.hostFrontSkin()}/pipo-nekonin009.png`;
+import characterSkin10 from `${endPoints.hostFrontSkin()}/pipo-nekonin010.png`;
+import characterSkin11 from `${endPoints.hostFrontSkin()}/pipo-nekonin011.png`;
+import characterSkin12 from `${endPoints.hostFrontSkin()}/pipo-nekonin012.png`;
+import characterSkin13 from `${endPoints.hostFrontSkin()}/pipo-nekonin013.png`;
+import characterSkin14 from `${endPoints.hostFrontSkin()}/pipo-nekonin014.png`;
+import characterSkin15 from `${endPoints.hostFrontSkin()}/pipo-nekonin015.png`;
+import characterSkin16 from `${endPoints.hostFrontSkin()}/pipo-nekonin016.png`;
+import characterSkin17 from `${endPoints.hostFrontSkin()}/pipo-nekonin017.png`;
+import characterSkin18 from `${endPoints.hostFrontSkin()}/pipo-nekonin018.png`;
+import characterSkin19 from `${endPoints.hostFrontSkin()}/pipo-nekonin019.png`;
+import characterSkin20 from `${endPoints.hostFrontSkin()}/pipo-nekonin020.png`;
+import characterSkin21 from `${endPoints.hostFrontSkin()}/pipo-nekonin021.png`;
+import characterSkin22 from `${endPoints.hostFrontSkin()}/pipo-nekonin022.png`;
+import characterSkin23 from `${endPoints.hostFrontSkin()}/pipo-nekonin023.png`;
+import characterSkin24 from `${endPoints.hostFrontSkin()}/pipo-nekonin024.png`;
+import characterSkin25 from `${endPoints.hostFrontSkin()}/pipo-nekonin025.png`;
+import characterSkin26 from `${endPoints.hostFrontSkin()}/pipo-nekonin026.png`;
+import characterSkin27 from `${endPoints.hostFrontSkin()}/pipo-nekonin027.png`;
+import characterSkin28 from `${endPoints.hostFrontSkin()}/pipo-nekonin028.png`;
+import characterSkin29 from `${endPoints.hostFrontSkin()}/pipo-nekonin029.png`;
+import characterSkin30 from `${endPoints.hostFrontSkin()}/pipo-nekonin030.png`;
+import characterSkin31 from `${endPoints.hostFrontSkin()}/pipo-nekonin031.png`;
 
 import bomb1 from '../../assets/images/bomb/bomb1.png';
 import bomb2 from '../../assets/images/bomb/bomb2.png';
@@ -69,6 +70,7 @@ import FirstPlayerInfo from '../playersInfo/FirstPlayerInfo/FirstPlayerInfo';
 import SecondPlayerInfo from '../playersInfo/SecondPlayerInfo/SecondPlayerInfo';
 import ThirdPlayerInfo from '../playersInfo/ThirdPlayerInfo/ThirdPlayerInfo';
 import FourthPlayerInfo from '../playersInfo/FourthPlayerInfo/FourthPlayerInfo';
+import { hostFrontSkin } from '../../config/endPoints';
 
 function Game({
   socket, listenKey, setListenKey, currRoomId,
